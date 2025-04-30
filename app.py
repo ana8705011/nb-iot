@@ -8,7 +8,7 @@ app = Flask(__name__)
 INFLUX_URL = "https://deae-37-12-57-52.ngrok-free.app"
 INFLUX_BUCKET = "IoT_influx"
 INFLUX_ORG = "IES Andres Laguna"  # Puedes confirmar el nombre exacto de tu organización si da error
-INFLUX_TOKEN = "IoT_influx"  # Sustituye por el token que aparece en InfluxDB
+INFLUX_TOKEN = "emlvuP88NQhrvPDM0uquWPi4LRbY2S0CKFD-6-IoI5QRYK9ea_Q9Gedsy7dkKcu6MMi9ekSAeL3Mpwxzd_z07A=="  # Sustituye por el token que aparece en InfluxDB
 
 @app.route('/datos', methods=['POST'])
 def recibir_datos():

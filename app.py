@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 
-# Configuración de InfluxDB
-INFLUX_URL = "https://deae-37-12-57-52.ngrok-free.app"
+# Configuración de InfluxDB (usando la URL pública de ngrok)
+INFLUX_URL = "https://f5ac-5-205-183-40.ngrok-free.app"
 INFLUX_BUCKET = "IoT_influx"
 INFLUX_ORG = "IES Andres Laguna"
 INFLUX_TOKEN = "emlvuP88NQhrvPDM0uquWPi4LRbY2S0CKFD-6-IoI5QRYK9ea_Q9Gedsy7dkKcu6MMi9ekSAeL3Mpwxzd_z07A=="
